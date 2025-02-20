@@ -25,3 +25,7 @@ const [x, ...result] = numbersArray5;
 console.log(x); // 1
 console.log(result); // [ 2, 3 ]
 
+// demo
+const numbersArray6 = [0,...numbersArray5,0];
+console.log(numbersArray6);
+

@@ -3,7 +3,7 @@
 
 // Given an array of numbers, double each number and return a new array
 const numbers = [1, 2, 3, 4, 5];
-const doubledNumbers = [];
+let doubledNumbers = [];
 
 // Imperative (Non-Functional) Approach
 for (let i = 0; i < numbers.length; i++) {
@@ -66,7 +66,11 @@ function multiply (a, b) {
 	return a * b;
 }
 
-console.log(aplicarOperacion(3, 4, multiply));  // 12
+console.log(applyOperation(3, 4, multiply));  // 12
+
+
+// Prova
+console.log(applyOperation(3,4,(x,y)=>2*x+y)); // Hello
 
 
 
